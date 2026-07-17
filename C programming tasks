@@ -29,3 +29,14 @@ int main()
     printf("Product=%d",product);
     return 0;
 }
+
+#include<stdio.h>
+int main()
+{
+    int a,b,quadient;
+    printf("Enter two numbers:");
+    scanf("%d%d",&a,&b);
+    quadient=a/b;
+    printf("Quadient=%d",quadient);
+    return 0;
+}
