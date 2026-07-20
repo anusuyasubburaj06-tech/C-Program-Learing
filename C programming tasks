@@ -121,6 +121,7 @@ int main()
 
 int main() {
     int num1,num2,sum,difference;
+
     printf("Enter two numbers:");
     scanf("%d%d",&num1,&num2);
     sum=num1+num2;
@@ -135,6 +136,7 @@ int main() {
 
 int main() {
     int num,square,cube;
+
     printf("enter a number:");
     scanf("%d",&num);
     square=num*num;
@@ -145,4 +147,20 @@ int main() {
     return 0;
 }
 
+
+int main() {
+    int a,b,c,d,product,div;
+
+    printf("Enter two numbers:");
+    scanf("%d%d",&a,&b);
+    printf("Enter two numbers:");
+    scanf("%d%d",&c,&d);
+    
+    product=a*b;
+    div=c/d;
+    
+    printf("a*b=%d\n",product);
+    printf("c/d=%d\n",div);
+    return 0;
+}
 
