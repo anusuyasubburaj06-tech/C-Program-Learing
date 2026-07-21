@@ -164,3 +164,20 @@ int main() {
     return 0;
 }
 
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int age;
+    float cgpa; 
+    char grade;
+    
+    printf("Enter age,cgpa,grade:");
+    scanf("%d %f %c",&age,&cgpa,&grade);
+    
+    printf("Age=%d", age);
+    printf("Cgpa=%f", cgpa);
+    printf("Grade=%c", grade);
+
+    return 0;
+}
