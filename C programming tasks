@@ -164,8 +164,6 @@ int main() {
     return 0;
 }
 
-// Online C compiler to run C program online
-#include <stdio.h>
 
 int main() {
     int age;
@@ -182,8 +180,7 @@ int main() {
     return 0;
 }
 
-// Online C compiler to run C program online
-#include <stdio.h>
+
 
 int main() {
     int m1,m2,m3,total;
