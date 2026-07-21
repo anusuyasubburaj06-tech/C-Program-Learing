@@ -181,3 +181,21 @@ int main() {
 
     return 0;
 }
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int m1,m2,m3,total;
+    float avg;
+    
+    printf("Enter three marks:");
+    scanf("%d %d %d",&m1,&m2,&m3);
+    
+    total=m1+m2+m3;
+    avg=total/3;
+    
+    printf("Average is %d",avg);
+
+    return 0;
+}
