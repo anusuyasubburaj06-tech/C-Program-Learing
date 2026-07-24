@@ -247,4 +247,20 @@ int main() {
     }
     
     return 0;
-}    
+}  
+
+FUNCTIONS
+
+
+No arguments,no return value
+
+#include <stdio.h>
+
+void display() {
+    printf("Hello");
+}
+
+int main() {
+    display();
+    return 0;
+}
