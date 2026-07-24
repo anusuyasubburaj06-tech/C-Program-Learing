@@ -308,3 +308,15 @@ int main() {
     return 0;
 }
         
+#include <stdio.h>
+void add(){
+    int a,b;
+    printf("Enter two numbers");
+    scanf("%d %d",&a,&b);
+    
+    int c=a+b;
+    printf("Answer %d",c);
+}
+void main(){
+    add();
+}
